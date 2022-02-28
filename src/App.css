@@ -1,0 +1,39 @@
+@import url('https://spectre-ui.netlify.app/documentation/styles.css');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.App {
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #202124;
+  color: white;
+}
+ 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ gap: 2rem;
+}
+
+.note{
+  width:15rem;
+  height:10rem;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: darkslategrey;
+}
+
+.note-container{
+  flex-wrap: wrap;
+  
+}
